@@ -52,7 +52,11 @@ export default function Profile() {
 
         <Section id="about" title="About">
           <div className="about-block card">
-            <img src={profile.photo} alt={profile.name} className="profile-pic" />
+            <img
+              src={`${import.meta.env.BASE_URL}${profile.photo.replace(/^\//, '')}`}
+              alt={profile.name}
+              className="profile-pic"
+            />
             <div>
               <p className="home-meta">
                 {profile.year} at MIT · Class of {profile.classYear} · {profile.major}
