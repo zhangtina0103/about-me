@@ -113,7 +113,7 @@ export const research = [
     pi: 'Elliott Thornley',
     bullets: [
       'Built a benchmark to evaluate OOD generalization of learned risk aversion across extreme scale variations (10⁹⁸ range in stakes); paper accepted to ICML 2026 AIWILD Workshop and submitted to NeurIPS.',
-      'Utilized Slurm workload manager to orchestrate distributed compute resources for multi-node preference fine-tuning (DPO) of Qwen, LLaMA, and Gemma models, boosting extreme-stakes risk metrics by 50+%.',
+      'Fine-tuned Qwen, LLaMA, and Gemma models with direct preference optimization to encode constant absolute risk aversion-based risk preferences; achieved up to 50+% improvement over baseline models on extreme-stakes risk-consistency and cooperation metrics.',
     ],
     repo: 'https://github.com/zhangtina0103/risk-averse-LLMs',
   },
