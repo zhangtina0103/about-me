@@ -1,7 +1,4 @@
-# Kristina (Tina) Zhang — Personal Site
-
-React + Vite portfolio site with experience, resume, and projects.
-
+# Tina Zhang — Personal Site
 ## Local development
 
 ```bash
